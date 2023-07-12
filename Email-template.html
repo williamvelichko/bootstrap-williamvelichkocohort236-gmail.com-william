@@ -16,10 +16,7 @@
   </head>
   <body>
     <style>
-      .main-container {
-      }
-      .col-lg-5 {
-      }
+  
       .navbar-toggler {
         color: black;
       }
@@ -29,28 +26,42 @@
         padding: 2px;
       }
       .navbar {
+        /* height: 10vh; */
         background-color: #0466c8;
       }
       .navbar-toggler {
         border: none;
       }
+form {
+    width: 80%;
+}
+      
+/*inbox email styling*/
+.inbox-container {
+    /* height: 45vh; */
+    background-color: #FFFFFF
+}
 
-      .navbar-toggler-icon {
-        color: white;
-      }
+/* opened email styling*/
+
+.opened-email {
+    background-color: #0466c8;
+    /* height: 45vh; */
+}
+
     </style>
-    <div class="main-container container-fluid p-0" style="min-height: 400px">
-
+    <div class="main-container container-fluid p-0 h-100">
+<div class="row">
           <nav
-            class="navbar col-lg-2 navbar-expand-lg navbar-light w-100 "
+            class="navbar col-md-2 navbar-expand-lg navbar-light "
         
           >
             <div
-              class="container d-flex justify-content-between w-100"
+              class="container d-flex justify-content-between"
               style="background-color: transparent"
             >
               <!-- Search bar -->
-              <form class="d-flex w-80">
+              <form class="d-flex d-lg-none">
                 <input
                   class="search-bar w-100"
                   type="search"
@@ -59,7 +70,7 @@
               </form>
               <!-- Hamburger menu button -->
               <button
-                class="navbar-toggler w-20"
+                class="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarNav"
@@ -67,12 +78,31 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon bg-transparent" s></span>
               </button>
             </div>
           </nav>
+          <div class="inbox-container column-md-5 ds-flex ">
+            <div class="row-lg" style="border: 1px solid grey;">email</div>
+            <div class="row-lg"  style="border: 1px solid grey;">email</div>
+           <div class="row-lg"  style="border: 1px solid black;">email</div>
+          </div>
         </div>
  
+        <div class="opened-email ds-flex column-md-5 ">
+            <div class="tags">
+           tags
+            </div>
+       <div class="email-details">
+        email
+       </div>
+       <div class="send-email">
+       <div class="textarea-container ds-flex ">
+        <textarea></textarea>
+       </div>
+       </div>
+        </div>
+    </div>
     </div>
     <!-- Insert your content here -->
 
