@@ -1,0 +1,97 @@
+/* * {
+  border: 1px solid red;
+} */
+.main-container {
+  height: 100vh;
+}
+
+/* nav bar styling */
+
+.input-group-text {
+  border-radius: 30px;
+}
+.form-control {
+  border-radius: 30px;
+}
+form {
+  width: 80%;
+}
+
+.navbar {
+  height: 10vh;
+  background-color: #0466c8;
+}
+
+/*inbox email styling*/
+.inbox-container {
+  height: 45vh;
+  background-color: #ffffff;
+}
+.email-info h5,
+h4 {
+  font-size: 0.9rem;
+}
+
+.email-time {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.email-description {
+  width: 90%;
+  color: grey;
+  font-size: 0.9rem;
+  padding: 2px;
+  margin: 2px;
+}
+
+/* opened email styling*/
+
+.opened-email {
+  background-color: #0466c8;
+  height: 45vh;
+}
+.tags {
+  margin: 7px;
+  border-bottom: 2px solid #ffffff;
+}
+.opened-icons {
+  display: flex;
+  justify-content: end;
+  font-size: 0.8rem;
+  padding: 5px;
+}
+
+.opened-from {
+  font-size: 0.6rem;
+  padding: 5px;
+}
+
+.opened-email-info {
+  color: #ffffff;
+}
+.opened-email-description {
+  color: #ffffff;
+  font-size: 0.8rem;
+  border: 1px solid #ffffff;
+  height: 100px;
+}
+.opened-email-description p {
+  width: 95%;
+}
+.send-email {
+  height: 140px;
+}
+
+/* media view ports*/
+@media (min-width: 992px) {
+  .navbar {
+    height: 100vh;
+  }
+  .inbox-container {
+    height: 100vh;
+  }
+  .opened-email {
+    height: 100vh;
+  }
+}
