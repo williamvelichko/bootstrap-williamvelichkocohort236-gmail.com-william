@@ -2,7 +2,7 @@
   border: 1px solid red;
 } */
 .main-container {
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 /* nav bar styling */
@@ -19,12 +19,14 @@ form {
 
 .navbar {
   height: 10vh;
+
   background-color: #0466c8;
 }
 
 /*inbox email styling*/
 .inbox-container {
   height: 45vh;
+
   background-color: #ffffff;
 }
 .email-info h5,
@@ -48,12 +50,13 @@ h4 {
 /* opened email styling*/
 
 .opened-email {
-  background-color: #0466c8;
-  height: 45vh;
+  /* background-color: #0466c8; */
+  height: 50%;
 }
 .tags {
-  margin: 7px;
+  margin: 0;
   border-bottom: 2px solid #ffffff;
+  background-color: #0466c8;
 }
 .opened-icons {
   display: flex;
@@ -80,7 +83,15 @@ h4 {
   width: 95%;
 }
 .send-email {
-  height: 140px;
+  background-color: aquamarine;
+  height: 21vh;
+}
+.email-details {
+  background-color: grey;
+  height: 21vh;
+}
+.textarea-container {
+  width: 100%;
 }
 
 /* media view ports*/
