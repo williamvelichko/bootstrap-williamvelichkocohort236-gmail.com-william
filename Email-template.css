@@ -92,11 +92,18 @@ h4 {
 }
 /* opened email styling*/
 
-.opened-email {
-  /* background-color: #0466c8; */
-  height: 50%;
+.opened-email-info {
+  width: 90%;
+  font-size: 0.8rem;
+  padding-right: 10px;
+}
+.linkedin-logo {
+  width: 10%;
 }
 
+/* .opened-email * {
+  border: 1px solid red;
+} */
 .tags {
   margin: 0;
   border-bottom: 2px solid #ffffff;
@@ -115,26 +122,13 @@ h4 {
   color: black;
   font-size: 0.8rem;
   border: 1px solid black;
-  height: 80%;
-  width: 90%;
+  /* height: 80%;
+  width: 90%; */
 }
-.opened-email-description p {
-  width: 95%;
-}
-.send-email {
-  height: 21vh;
-}
-.email-details {
-  height: 21vh;
-}
-.textarea-container {
-  width: 100%;
-  height: 100%;
-  align-items: center;
-}
+
 textarea {
-  width: 90%;
-  height: 90%;
+  /* width: 90%;
+  height: 90%; */
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 

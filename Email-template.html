@@ -20,7 +20,7 @@
     <title>Email Template</title>
   </head>
   <body>
-    <div class="main-container">
+    <div class="main-container h-100">
       <div class="row">
         <nav
           class="navbar col-lg-1 navbar-expand-lg navbar-light p-0 justify-content-center"
@@ -225,18 +225,31 @@
             </h5>
           </div>
 
-          <div class="opened-email-container h-50">
-            <div class="email-details p-0">
-              <h4 class="opened-email-info m-0">Linkedin</h4>
+          <div class="opened-email-container">
+            <div
+              class="email-details p-0 d-flex flex-column align-items-center"
+            >
               <div
-                class="opened-email-description d-flex justify-content-center m-0"
+                class="email-opened-from w-100 d-flex justify-content-start p-2 align-items-center"
+              >
+                <i
+                  class="bi bi-linkedin linkedin-logo d-flex justify-content-end text-primary p-1"
+                >
+                </i>
+                <h4 class="opened-email-info m-0">Linkedin</h4>
+              </div>
+
+              <div
+                class="opened-email-description d-flex justify-content-center m-0 w-75"
               >
                 <p>New Connection from jacob</p>
               </div>
             </div>
             <div class="send-email p-0">
-              <div class="textarea-container d-flex justify-content-center m-0">
-                <textarea></textarea>
+              <div
+                class="textarea-container d-flex justify-content-center m-0 h-50"
+              >
+                <textarea class="w-75"></textarea>
               </div>
             </div>
           </div>
