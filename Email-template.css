@@ -24,6 +24,23 @@ form {
 }
 
 /*inbox email styling*/
+
+.email-bar-nav {
+  background-color: #0466c8;
+}
+.email-bar-nav .input-group {
+  width: 90%;
+}
+/* .email-bar-nav * {
+  border: 1px solid red;
+} */
+.email-bar-type h5 {
+  font-size: 0.8rem;
+}
+
+.email-bar-top {
+  /* width: 90%; */
+}
 .inbox-container {
   height: 45vh;
 
