@@ -21,7 +21,7 @@
   </head>
   <body>
     <div class="main-container h-100">
-      <div class="row">
+      <div class="row h-100">
         <nav
           class="navbar col-lg-1 navbar-expand-lg navbar-light p-0 justify-content-center"
         >
@@ -58,9 +58,9 @@
               <span class="navbar-toggler-icon"></span>
             </button>
           </div>
-          <!--SideBar for desktop view-->
+          <!-- SideBar for desktop view -->
           <div
-            class="sidebar-container d-lg-flex d-none flex-column w-100 h-100 text-white"
+            class="sidebar-container d-lg-flex d-none flex-column w-100 text-white"
           >
             <div
               class="sidebar-inner-div h-50 d-flex flex-column justify-content-around align-items-center"
@@ -94,9 +94,7 @@
           </div>
         </nav>
         <!-- inbox with all emails -->
-        <div
-          class="inbox-container col-lg-6 col-md-6 p-0 border-bottom border-2 border-primary"
-        >
+        <div class="inbox-container col-lg-6 col-md-6 p-0">
           <div class="email-bar-nav d-flex flex-column">
             <form
               class="row-lg d-lg-flex d-none col-12 w-100 justify-content-center"
@@ -209,9 +207,7 @@
         </div>
 
         <!-- opened email -->
-        <div
-          class="opened-email col-lg-5 col-md-6 p-0 border border-2 border-primary"
-        >
+        <div class="opened-email col-lg-5 col-md-6 p-0">
           <div class="tags d-flex text-white w-100 m-0 p-2">
             <h5 class="opened-from col-9 m-0">
               From:linkedin@email.com-To:william@gmail.com
@@ -225,31 +221,38 @@
             </h5>
           </div>
 
-          <div class="opened-email-container">
+          <div class="opened-email-container h-100">
             <div
-              class="email-details p-0 d-flex flex-column align-items-center"
+              class="email-details p-0 d-flex flex-column align-items-center h-50"
             >
               <div
                 class="email-opened-from w-100 d-flex justify-content-start p-2 align-items-center"
               >
                 <i
-                  class="bi bi-linkedin linkedin-logo d-flex justify-content-end text-primary p-1"
+                  class="bi bi-linkedin linkedin-logo d-flex justify-content-end text-primary"
                 >
                 </i>
                 <h4 class="opened-email-info m-0">Linkedin</h4>
               </div>
 
               <div
-                class="opened-email-description d-flex justify-content-center m-0 w-75"
+                class="opened-email-description d-flex justify-content-center w-75 m-2 h-75"
               >
-                <p>New Connection from jacob</p>
+                <p class="m-2 w-100">New Connection from jacob</p>
               </div>
             </div>
-            <div class="send-email p-0">
-              <div
-                class="textarea-container d-flex justify-content-center m-0 h-50"
-              >
-                <textarea class="w-75"></textarea>
+            <div class="send-email p-0 h-50 d-flex justify-content-center">
+              <div class="textarea-container d-flex flex-column w-75 m-0 h-75">
+                <textarea class="w-100 h-100"></textarea>
+
+                <div
+                  class="d-flex justify-content-between align-items-center p-1"
+                >
+                  <i class="bi bi-link send-link text-primary"></i>
+                  <button class="reply-button border border-transparent">
+                    Reply
+                  </button>
+                </div>
               </div>
             </div>
           </div>

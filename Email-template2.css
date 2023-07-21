@@ -1,18 +1,13 @@
-/* * {
-  border: 1px solid red;
-} */
-
-body,
-html {
-  height: 100%;
+* {
+  border: 1px solid red; /* Debugging border, remove this line in production */
+  box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
 }
 
 .main-container {
-  height: 100%;
+  height: 100vh;
 }
 
-/* nav bar styling */
-
+/* Navbar styling */
 .input-group-text {
   border-radius: 30px;
 }
@@ -24,8 +19,7 @@ form {
 }
 
 .navbar {
-  /* height: 10vh; */
-
+  height: 10vh;
   background-color: #0466c8;
 }
 
@@ -37,40 +31,35 @@ form {
 .sidebar-compose-div button {
   border: 2px solid white;
 }
-/*inbox email styling*/
 
+/* Inbox email styling */
 .email-bar-nav {
   background-color: #0466c8;
 }
 .email-bar-nav .input-group {
   width: 90%;
 }
-/* .email-bar-nav * {
-  border: 1px solid red;
-} */
+
 .email-bar-type h5 {
   font-size: 0.8rem;
 }
 
 .email-bar-top {
-  /* width: 90%; */
+  /* width: 90%; */ /* Uncomment if required */
 }
 .inbox-container {
-  /* height: 45vh; */
-
+  height: 45vh;
   background-color: #ffffff;
 }
 .email-info,
 h4 {
   font-size: 0.9rem;
 }
-
 .email-time {
   display: flex;
   justify-content: flex-end;
   font-size: 0.8rem;
 }
-
 .email-description {
   width: 80%;
   color: grey;
@@ -78,7 +67,6 @@ h4 {
   padding: 2px;
   margin: 2px;
 }
-
 .email-inbox-container {
   border-bottom: 1px solid grey;
 }
@@ -96,8 +84,8 @@ h4 {
 #one {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-/* opened email styling*/
 
+/* Opened email styling */
 .opened-email-info {
   width: 90%;
   font-size: 0.8rem;
@@ -107,9 +95,6 @@ h4 {
   width: 10%;
 }
 
-/* .opened-email * {
-  border: 1px solid red;
-} */
 .tags {
   margin: 0;
   border-bottom: 2px solid #ffffff;
@@ -123,7 +108,6 @@ h4 {
   font-size: 0.6rem;
   padding: 5px;
 }
-
 .opened-email-description {
   color: black;
   font-size: 0.8rem;
@@ -136,9 +120,7 @@ h4 {
 textarea {
   border: none;
 }
-/* .send-email {
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-} */
+
 .textarea-container {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
@@ -153,27 +135,16 @@ textarea {
   font-size: 0.8rem;
   height: 70%;
 }
-/* media view ports*/
+
+/* Media viewports */
 @media (min-width: 992px) {
-  /* .navbar {
-    height: 100vh;
-  } */
+  /* Custom styles for viewport width 992px and above */
 }
 
 @media (min-width: 768px) {
-  .inbox-container {
-    height: 100%;
-  }
-  .opened-email {
-    height: 100%;
-  }
+  /* Custom styles for viewport width 768px and above */
 }
 
 @media (min-width: 576px) {
-  /* .opened-email {
-    height: 100%;
-  } */
-  /* .textarea-container {
-    height: 300px;
-  } */
+  /* Custom styles for viewport width 576px and above */
 }
