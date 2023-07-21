@@ -23,7 +23,7 @@
     <div class="main-container">
       <div class="row">
         <nav
-          class="navbar col-lg-2 navbar-expand-lg navbar-light p-0 justify-content-center"
+          class="navbar col-lg-1 navbar-expand-lg navbar-light p-0 justify-content-center"
         >
           <div
             class="container d-lg-none d-flex justify-content-between w-100 m-0 p-sm-0"
@@ -94,7 +94,9 @@
           </div>
         </nav>
         <!-- inbox with all emails -->
-        <div class="inbox-container col-lg-5 col-md-6 p-0">
+        <div
+          class="inbox-container col-lg-6 col-md-6 p-0 border-bottom border-2 border-primary"
+        >
           <div class="email-bar-nav d-flex flex-column">
             <form
               class="row-lg d-lg-flex d-none col-12 w-100 justify-content-center"
@@ -148,43 +150,68 @@
               </div>
             </div>
           </div>
-          <div class="row-lg" style="border: 1px solid grey">
-            <div class="email-info row w-100 m-0">
-              <h4 class="email-name col-6 m-0">Linkedin</h4>
-              <h5 class="email-time col-6 m-0">05:30PM</h5>
+          <div class="email-inbox-container">
+            <div class="email-inbox-div row-lg p-2" id="one">
+              <div class="email-info row w-100 m-0">
+                <h4 class="email-name col-6 m-0">Linkedin</h4>
+                <h5 class="email-time col-6 m-0">05:30PM</h5>
+              </div>
+              <div
+                class="email-description-container d-flex justify-content-center"
+              >
+                <div
+                  class="email-description-icons d-flex justify-content-center justify-content-md-start m-2"
+                >
+                  <input type="checkbox" /><i class="bi bi-star"></i>
+                </div>
+                <p class="email-description m-0 d-flex align-items-center">
+                  New Connection
+                </p>
+              </div>
             </div>
-            <div
-              class="email-description-container d-flex justify-content-center"
-            >
-              <p class="email-description m-0">New Connection</p>
+            <div class="email-inbox-div row-lg p-2" id="two">
+              <div class="email-info row w-100 m-0">
+                <h4 class="email-name col-6 m-0">Linkedin</h4>
+                <h5 class="email-time col-6 m-0">05:30PM</h5>
+              </div>
+              <div
+                class="email-description-container d-flex justify-content-center"
+              >
+                <div
+                  class="email-description-icons d-flex justify-content-center justify-content-md-start m-2"
+                >
+                  <input type="checkbox" /><i class="bi bi-star"></i>
+                </div>
+                <p class="email-description m-0 d-flex align-items-center">
+                  New Connection
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="row-lg" style="border: 1px solid grey">
-            <div class="email-info row w-100 m-0">
-              <h4 class="email-name col-6 m-0">Linkedin</h4>
-              <h5 class="email-time col-6 m-0">05:30PM</h5>
-            </div>
-            <div
-              class="email-description-container d-flex justify-content-center"
-            >
-              <p class="email-description m-0">New Connection</p>
-            </div>
-          </div>
-          <div class="row-lg" style="border: 1px solid grey">
-            <div class="email-info row w-100 m-0">
-              <h4 class="email-name col-6 m-0">Linkedin</h4>
-              <h5 class="email-time col-6 m-0">05:30PM</h5>
-            </div>
-            <div
-              class="email-description-container d-flex justify-content-center"
-            >
-              <p class="email-description m-0">New Connection</p>
+            <div class="email-inbox-div row-lg p-2" id="three">
+              <div class="email-info row w-100 m-0">
+                <h4 class="email-name col-6 m-0">Linkedin</h4>
+                <h5 class="email-time col-6 m-0">05:30PM</h5>
+              </div>
+              <div
+                class="email-description-container d-flex justify-content-center"
+              >
+                <div
+                  class="email-description-icons d-flex justify-content-center justify-content-md-start m-2"
+                >
+                  <input type="checkbox" /><i class="bi bi-star"></i>
+                </div>
+                <p class="email-description m-0 d-flex align-items-center">
+                  New Connection
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
         <!-- opened email -->
-        <div class="opened-email col-lg-5 col-md-6 p-0">
+        <div
+          class="opened-email col-lg-5 col-md-6 p-0 border border-2 border-primary"
+        >
           <div class="tags d-flex text-white w-100 m-0 p-2">
             <h5 class="opened-from col-9 m-0">
               From:linkedin@email.com-To:william@gmail.com

@@ -54,7 +54,7 @@ form {
 
   background-color: #ffffff;
 }
-.email-info h5,
+.email-info,
 h4 {
   font-size: 0.9rem;
 }
@@ -62,16 +62,34 @@ h4 {
 .email-time {
   display: flex;
   justify-content: flex-end;
+  font-size: 0.8rem;
 }
 
 .email-description {
-  width: 90%;
+  width: 80%;
   color: grey;
   font-size: 0.9rem;
   padding: 2px;
   margin: 2px;
 }
 
+.email-inbox-container {
+  border-bottom: 1px solid grey;
+}
+
+.email-description-icons {
+  width: 20%;
+}
+.email-description-icons input {
+  margin-right: 5px;
+}
+
+.email-inbox-div {
+  border-top: 1px solid grey;
+}
+#one {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
 /* opened email styling*/
 
 .opened-email {
