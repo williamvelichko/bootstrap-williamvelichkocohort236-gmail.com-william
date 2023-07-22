@@ -34,8 +34,31 @@ html {
   width: 80px;
   height: 80px;
 }
+.sidebar-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50%;
+}
 .sidebar-compose-div button {
   border: 2px solid white;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #ffffff;
+  transition: 0.8s;
+}
+.sidebar-compose-div button:hover {
+  background-color: #ffffff;
+  color: #0466c8;
+}
+.sidebar-buttons-div {
+  transition: 0.8s;
+}
+
+.sidebar-buttons-div:hover {
+  background-color: #ffffff;
+  color: #0466c8;
 }
 
 /*inbox email styling*/
@@ -88,8 +111,12 @@ h4 {
 
 .email-inbox-div {
   border-top: 1px solid grey;
+  transition: 0.3s;
 }
 #one {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.email-inbox-div:hover {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
