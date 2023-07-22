@@ -19,14 +19,14 @@ html {
 .form-control {
   border-radius: 30px;
 }
-form {
-  width: 80%;
-}
 
 .navbar {
-  /* height: 10vh; */
-
+  height: 10%;
   background-color: #0466c8;
+}
+
+.searchbar-hamburger {
+  height: 100%;
 }
 
 .sidebar-circle {
@@ -37,6 +37,7 @@ form {
 .sidebar-compose-div button {
   border: 2px solid white;
 }
+
 /*inbox email styling*/
 
 .email-bar-nav {
@@ -45,21 +46,16 @@ form {
 .email-bar-nav .input-group {
   width: 90%;
 }
-/* .email-bar-nav * {
-  border: 1px solid red;
-} */
+
 .email-bar-type h5 {
   font-size: 0.8rem;
 }
 
-.email-bar-top {
-  /* width: 90%; */
-}
 .inbox-container {
-  /* height: 45vh; */
-
+  height: 45%;
   background-color: #ffffff;
 }
+
 .email-info,
 h4 {
   font-size: 0.9rem;
@@ -96,6 +92,7 @@ h4 {
 #one {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
+
 /* opened email styling*/
 
 .opened-email-info {
@@ -103,17 +100,23 @@ h4 {
   font-size: 0.8rem;
   padding-right: 10px;
 }
+
 .linkedin-logo {
   width: 10%;
 }
 
-/* .opened-email * {
-  border: 1px solid red;
-} */
+.opened-email {
+  height: 45%;
+}
+
 .tags {
   margin: 0;
   border-bottom: 2px solid #ffffff;
   background-color: #0466c8;
+  height: 10%;
+}
+.opened-email-container {
+  height: 90%;
 }
 .opened-icons {
   font-size: 0.9rem;
@@ -128,6 +131,7 @@ h4 {
   color: black;
   font-size: 0.8rem;
   border: 1px solid lightgray;
+  height: 90%;
 }
 .opened-email-description p {
   font-size: 0.7rem;
@@ -136,11 +140,10 @@ h4 {
 textarea {
   border: none;
 }
-/* .send-email {
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-} */
+
 .textarea-container {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  height: 90%;
 }
 .send-link {
   font-size: 1.4rem;
@@ -154,26 +157,29 @@ textarea {
   height: 70%;
 }
 /* media view ports*/
-@media (min-width: 992px) {
-  /* .navbar {
-    height: 100vh;
-  } */
-}
 
 @media (min-width: 768px) {
+  .inbox-container {
+    height: 90%;
+  }
+  .opened-email {
+    height: 90%;
+  }
+  .tags {
+    height: 5%;
+  }
+  .opened-email-container {
+    height: 95%;
+  }
+}
+@media (min-width: 992px) {
   .inbox-container {
     height: 100%;
   }
   .opened-email {
     height: 100%;
   }
-}
-
-@media (min-width: 576px) {
-  /* .opened-email {
+  .navbar {
     height: 100%;
-  } */
-  /* .textarea-container {
-    height: 300px;
-  } */
+  }
 }
